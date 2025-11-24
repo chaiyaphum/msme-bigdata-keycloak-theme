@@ -1,0 +1,36 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+CHANGELOG.md
+README.md
+TESTING.md
+QUICKSTART.md
+
+# Docker files
+docker-compose*.yml
+Dockerfile
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test scripts
+scripts/
+
+# Backup files
+*.bak
+*~
