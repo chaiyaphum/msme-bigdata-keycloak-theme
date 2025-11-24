@@ -1,0 +1,14 @@
+{
+  "themes": [
+    {
+      "name": "msme-bigdata",
+      "types": [
+        "login",
+        "account",
+        "admin",
+        "email",
+        "welcome"
+      ]
+    }
+  ]
+}
