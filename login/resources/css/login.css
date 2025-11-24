@@ -1,0 +1,97 @@
+.login-pf body {
+    font-family: "Kanit", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background: url("../img/keycloak-smegp-bg.png");
+    /*edit url */
+    color: #495057;
+}
+
+.login-pf div.kc-logo-text {
+    background-image: url("../img/keycloak-smegp-logo-text.png");
+    /* edit url */
+    background-size: cover;
+    height: 82px;
+    width: 478px;
+    margin: 0 auto;
+}
+
+div.kc-logo-text span {
+    display: none;
+}
+
+.login-pf .card-pf {
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 0.4rem;
+    border-top: unset;
+}
+
+.login-pf .card-pf .login-pf-header h1 {
+    text-align: left;
+    font-weight: 500;
+}
+
+.login-pf .card-pf .pf-c-button.pf-m-primary {
+    background-color: #0177c1;
+    border-radius: 0.25rem;
+    line-height: 1.8 !important;
+}
+
+.login-pf .card-pf #kc-info-wrapper {
+    border-bottom-right-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+    background-color: transparent;
+}
+
+.login-pf .card-pf #kc-info-wrapper #kc-registration span>a {
+    color: #0177c1;
+}
+
+.login-pf .card-pf .pf-c-form-control {
+    padding: 0.47rem 0.75rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.25rem;
+    border-bottom-color: #ced4da !important;
+    border-bottom-width: 1px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.login-pf .card-pf .pf-c-form-control:hover,
+.login-pf .card-pf .pf-c-form-control:focus,
+.login-pf .card-pf .pf-c-form-control:hover,
+.login-pf .card-pf .pf-c-form-control:focus {
+    border-bottom: unset;
+    border-bottom-color: #ced4da !important;
+    border-bottom-width: 1px;
+}
+
+.login-pf .card-pf .form-group.login-pf-settings span>a {
+    color: #f46a6a;
+}
+
+@media (max-width: 767px) {
+    .login-pf div.kc-logo-text {
+        height: 50px;
+        width: 200px;
+        margin: auto;
+        background-size: cover;
+    }
+
+    #kc-header-wrapper {
+        padding: unset;
+    }
+
+    #kc-info-wrapper {
+        border-top: unset;
+        padding-top: 10px;
+    }
+
+    .login-pf-page .card-pf {
+        margin: 10% !important;
+        padding-top: 40px;
+    }
+}
